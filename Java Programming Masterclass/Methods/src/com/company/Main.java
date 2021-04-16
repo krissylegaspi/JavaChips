@@ -48,7 +48,7 @@ public class Main {
             return 1;
         } else if (score >= 500) {
             return 2;
-        } else if (score >= 100) {
+        } else if (score >= 100); {
             return 3;
         } else {
             return 4;
