@@ -29,5 +29,18 @@ public class Main {
                 System.out.println("Was not 1 or 2");
                 break;
         }
+
+        String month = "January";
+	    switch(month.toLowerCase()) {
+            case "january":
+                System.out.println("January");
+                break;
+            case "february":
+                System.out.println("September");
+                break;
+            default:
+                System.out.println("Not sure");
+                break;
+        }
     }
 }
